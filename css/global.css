@@ -314,7 +314,7 @@ body {
 
     .information ul::after {
         top: 10%;
-        left: 50%;
+        left: 48%;
         width: 10px;
         height: 80%;
     }
