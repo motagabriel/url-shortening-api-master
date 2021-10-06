@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light header-menu">
+      <div class="container-fluid container">
+        <a class="navbar-brand" href="#"><img src="./images/logo.svg" alt="Logo Shortly"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+          </ul>
+          <ul class="d-flex navbar-nav">
+              <li class="nav-item"><a class="text-decoration-none nav-link login" href="#">Login</a></li>
+              <li class="nav-item"><a class="text-decoration-none nav-link button-custom" href="#">Sign Up</a></li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    <section class="container introduction">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 introduction-content">
+          <h1>More than just shorter links</h1>
+          <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+          <button class="button-custom">Get Started</button>
+        </div>
+        <div class="col-md-6 col-sm-12 illustration-working">
+          <img src="./images/illustration-working.svg"  alt="illustration working" class="">
+        </div> 
+      </div>
+      
+    </section>
+  </header>
+  
+  <main class="main">
+    <section class="shorter container">
+      <div class="input-shorter container p-4 row">
+        <div class="col-md-10 col-sm-12" id="div-input-short">
+          <input type="text" placeholder="Shorten a link here...">
+        </div>
+        <button class="col-md-2 col-sm-12 button-custom">Shoten It!</button>
+      </div>
+    </section>
+    <div class="container input-response">
+      
+    </div>
+
+    <section class="information container">
+      <div class="information-introduction">
+        <h2>Advanced Statistics</h2>
+        <p>Track how your links are performing across the web with our 
+        advanced statistics dashboard.</p>
+      </div>
+      <ul class="list-unstyled row justify-content-md-center">
+        <li class="information-card col-lg-4 col-sm-12 line">
+          <div>
+            <div class="icon-brand icon"></div>
+          </div>
+          <h4>Brand Recognition</h4>
+          <p>Boost your brand recognition with each click. Generic links don’t 
+        mean a thing. Branded links help instil confidence in your content.</p>
+      </li>
+      <li class="information-card col-lg-4 col-sm-12">
+        <div>
+          <div class="icon-detailed icon"></div>
+        </div>
+        <h4>Detailed Records</h4>
+        <p>Gain insights into who is clicking your links. Knowing when and where 
+        people engage with your content helps inform better decisions.</p>
+      </li>
+      <li class="information-card col-lg-4 col-sm-12">
+        <div>
+          <div class="icon-fully icon"></div>
+        </div>
+        <h4>Fully Customizable</h4>
+        <p>Improve brand awareness and content discoverability through customizable 
+          links, supercharging audience engagement.</p>
+      </li>
+      </ul>
+    </section>
+
+    <section class="boost">
+      <div class="container">
+        <h2>Boost your links today</h2>
+        <button class="button-custom">Get Started</button>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-12">
+          <h1>Shortly</h1>
+        </div>
+    
+        <div class="col-md-6 col-sm-12 d-flex flex-md-row flex-column justify-content-center mt-3">
+          <ul class="list-unstyled m-2">
+            <h6>Features</h6>
+            <a href=""><li>Link Shortening</li></a>
+            <a href=""><li>Branded Links</li></a>
+            <a href=""><li>Analytics</li></a>
+          </ul>
+          <ul class="list-unstyled m-2">
+            <h6>Resources</h6>
+            <a href=""><li>Blog</li></a>
+            <a href=""><li>Developers</li></a>
+            <a href=""><li>Support</li></a>
+          </ul>
+          <ul class="list-unstyled m-2">
+            <h6>Company</h6>
+            <a href=""><li>About</li></a>
+            <a href=""><li>Our Team</li></a>
+            <a href=""><li>Careers</li></a>
+          </ul>
+        </div>
+    
+        <div class="col-md-3 col-sm-12 social-media mt-3">
+          <a href="#" class="facebook">
+            <img src="./images/icon-facebook.svg" alt="Facebook">
+          </a>
+          <a href="#">
+            <img src="./images/icon-twitter.svg" alt="Twitter">
+          </a>
+          <a href="#">
+            <img src="./images/icon-pinterest.svg" alt="Pinterest">
+          </a>
+          <a href="#">
+            <img src="./images/icon-instagram.svg" alt="Instagram">
+          </a>
+        </div>
+      </div>
+       <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://github.com/motagabriel">Gabriel Mota</a>.
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

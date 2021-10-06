@@ -1,0 +1,51 @@
+.button-custom {
+    background-color: var(--cyan);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+header .navbar-toggler {
+    border: none
+}
+
+header .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+header .show {
+    text-align: center;
+    background: var(--dark-violet);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: .9rem;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+
+.navbar-light .navbar-nav .button-custom {
+    color: #fff;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+@media (max-width: 990px) {
+    header .login {
+    border-top: 1px solid #fff;
+    width: 50%;
+    margin: 0 auto;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+    }
+
+    .navbar-light .navbar-nav .button-custom {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
