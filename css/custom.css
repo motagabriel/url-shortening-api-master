@@ -31,6 +31,10 @@ header .show {
     text-align: center;
 }
 
+.navbar-toggler {
+    padding: 0;
+}
+
 @media (max-width: 990px) {
     header .login {
     border-top: 1px solid #fff;
