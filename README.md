@@ -2,5 +2,5 @@
 
 -Link: https://motagabriel.github.io/url-shortening-api-master/
 
-- :man_technologist: Challenge made using Bootstrap, Html, CSS and Javascript
+-:man_technologist: Challenge made using Bootstrap, Html, CSS and Javascript
 
